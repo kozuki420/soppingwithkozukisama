@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Cards</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./boostrab/bootstrap-4.0.0-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg
+    ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/style.css">
+ 
+</head>
+<body dir="ltr">
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light " style="position: fixed; width: 100%; z-index: 99;">
+
+        <a href="#" class="navbar-brand mr-5 ml-auto">kozuki</a>
+     
+     
+          <a data-target="#a" class="navbar-toggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+     
+          <div id="a" class="collapse navbar-collapse">
+     
+            <ul  dir="ltr" class="navbar-nav mr-auto ml-5 row ">
+     
+              <li class="nav-item col-md-4"><a href="#" class="nav-link">الدعم الفني</a></li>
+              <li class="nav-item col-md-2 "><a href="#" class="nav-link">تواصل</a></li>
+              <li class="nav-item col-md-6"><a href="index.html" class="nav-link">الصفحة الفرئيسية</a></li>
+     
+            </ul>
+     
+          </div>
+      
+      </nav>
+
+<div class="container" style="padding-top: 3rem;">
+	<br>
+	<p class="text-center"> انشاء حساب في منصة كوزوكي </p>
+	<hr>
+<div class="card bg-light">
+	<article class="card-body mx-auto" style="max-width: 400px;">
+		<h4 class="card-title mt-3 text-center">انشئ حساب </h4>
+		<p class="text-center">سجل دخولك عن طريق </p>
+		<p>
+			<a href="#" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Twitter</a>
+			<a href="#" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>    facebook</a>
+		</p>
+		<p class="divider-text">
+			<span class="bg-light d-flex justify-content-center">او</span>
+		</p>
+		<form >
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+			 </div>
+			<input name="full-name" class="form-control" placeholder="اسم المستخدم" type="text" id="username"> <!-- -->
+		</div>
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+			 </div>
+			<input name="email-address" class="form-control" placeholder="البريد الالكتروني " type="email" id="email"> <!-- -->
+		</div>
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+			</div>
+			<select class="custom-select" style="max-width: 120px;">
+				<option selected="">+123</option>
+				<option value="1">+456</option>
+				<option value="2">+789</option>
+				<option value="3">+963</option>
+                <option value="3">+966</option>
+                <option value="3">+20</option>
+			</select>
+			<input name="phone-number" class="form-control" placeholder="رقم الهاتف" type="text" id="number"> <!-- -->
+		</div>
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-building"></i> </span>
+			</div>
+			<select class="form-control" id="jop">
+				<option selected=""> اختر وظيفتك </option>
+				<option>دكتور باطنية </option>
+				<option> مهندس الكترونيات</option>
+				<option>سباك</option>
+                <option>نجار</option>
+                <option>رسام</option>
+			</select>
+		</div>
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+			</div>
+			<input class="form-control" placeholder=" الرمز السري" type="password" id="password">  <!-- -->
+		</div>
+		<div class="form-group input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+			</div>
+			<input class="form-control" placeholder=" اعد كتابة الرمز السري " type="password"> <!-- -->
+		</div>                                      
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary btn-block" id="btn">انشأ حسابك</button> <!-- -->
+		</div>      
+		<p class="text-center">لديك حساب ؟<a href="sign-in.html">تسجيل دخول</a> </p>                                                                 
+	</form>
+	</article>
+</div>
+</div> 
+
+<script type="text/javascript" src="./js/sign-up.js"></script>
+
+</body>
+</html>

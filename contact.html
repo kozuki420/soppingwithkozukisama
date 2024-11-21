@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../boostrab/bootstrap-4.0.0-dist/css/bootstrap.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg
+  ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Background Gradient */
+    body {
+      background: linear-gradient(135deg, #6d5dfc, #c2ceff);
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Section Padding */
+    section {
+      padding: 60px 0;
+    }
+
+    /* Form Styling */
+    .contact-form {
+      background: #fff;
+      color: #333;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact-form .form-control {
+      border-radius: 20px;
+    }
+
+    .contact-form button {
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .contact-form button:hover {
+      background-color: #6d5dfc;
+      color: #fff;
+    }
+
+    /* Info Box Styling */
+    .info-box {
+      text-align: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    .info-box i {
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .info-box:hover {
+      background: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* WhatsApp Icon */
+    .whatsapp-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .whatsapp-icon:hover {
+      transform: scale(1.1);
+    }
+    .info-box a {
+         text-decoration: none;
+         color: #fff;
+    }
+  </style>
+</head>
+<body dir="rtl">
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light " style="position: fixed; width: 100%; z-index: 99; background: linear-gradient( #6a59fa, #bcc9ff);">
+
+        <a href="#" class="navbar-brand mr-5 ml-auto">kozuki</a>
+     
+     
+          <a data-target="#a" class="navbar-toggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+     
+          <div id="a" class="collapse navbar-collapse"> 
+     
+            <ul  dir="ltr" class="navbar-nav mr-auto ml-5 row ">
+     
+              <li class="nav-item col-md-1"><a href="sign-in.html" class="nav-link"><i class="fa-solid fa-user"></i></a></li>
+              <li class="nav-item col-md-3"><a href="service.html" class="nav-link">خدماتنا</a></li>
+              <li class="nav-item col-md-3"><a href="about.html" class="nav-link">من نحن</a></li>       
+             <li class="nav-item col-md-5"><a href="index.html" class="nav-link">الصفحة الفرئيسية</a></li>
+     
+            </ul>
+     
+          </div>
+      
+      </nav>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1 class="display-4">Get in Touch</h1>
+        <p>We'd love to hear from you! Drop us a message or connect with us.</p>
+      </div>
+      <div class="row">
+        <!-- Contact Info Boxes -->
+        <div class="col-lg-4">
+          <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h5>Our Address</h5>
+            <p>123 Street, City, Country</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <h5>Call Us</h5>
+            <a href="https://wa.me/+966545692545">+966545692545 <p>Mohammad saleh for service programming</p>
+            </a>
+        </div>
+        </div>
+  
+        <div class="col-lg-4">
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <h5>Email Us</h5>
+            <p>support@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <!-- Contact Form -->
+        <div class="col-lg-8 offset-lg-2">
+          <div class="contact-form">
+            <h3 class="text-center mb-4">Send a Message</h3>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/+966545692545" target="_blank" class="whatsapp-icon">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Your Company. All rights reserved. | Designed by <a href="#">You</a></p>
+  </footer>
+
+  <!-- Bootstrap and JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
